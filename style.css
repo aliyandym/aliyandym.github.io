@@ -1,0 +1,82 @@
+/* ===== 1. A first rule: element selectors (§2) ===== */
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #1C2B2B;
+  background-color: #FCFDFC;
+}
+
+h1 {
+  color: #064E4F;
+}
+
+h2 {
+  color: #064E4F;
+}
+
+
+/* ===== 2. Box, padding and alignment ===== */
+
+header {
+  background-color: #064E4F;
+  color: #FCFDFC;
+  padding: 24px;
+  text-align: center;
+}
+
+nav {
+  background-color: #E8EFEF;
+  padding: 16px;
+  text-align: center;
+}
+
+main {
+  width: 720px;
+  padding: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+  border: 1px solid #B9CECE;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+footer {
+  background-color: #064E4F;
+  color: #FCFDFC;
+  padding: 16px 24px;
+  text-align: center;
+}
+
+
+/* ===== 3. Alignment tulisan, gambar, dan tabel ===== */
+
+main h1,
+main h2,
+main p {
+  text-align: center;
+}
+
+
+/* Gambar di tengah */
+main img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Tabel di tengah */
+main table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+/* Isi tabel di tengah */
+main th,
+main td {
+  text-align: center;
+  padding: 10px 20px;
+}
